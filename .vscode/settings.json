@@ -2,12 +2,11 @@
   "azureFunctions.projectRuntime": "~2",
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.templateFilter": "Verified",
-  "azureFunctions.preDeployTask": "installExtensions",
   "azureFunctions.deploySubpath": ".",
+  "azureFunctions.preDeployTask": "installExtensions",
   "files.exclude": {
-    "node_modules": true,
-    "bin": true,
-    "obj": true
+    "obj": true,
+    "bin": true
   },
   "debug.internalConsoleOptions": "neverOpen"
 }
